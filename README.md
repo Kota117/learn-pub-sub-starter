@@ -14,6 +14,12 @@ RabbitMQ uses Docker. Ensure Docker Desktop is open to start the Daemon before r
 ./rabbit.sh start
 ```
 
+or, after the end of CH2,
+
+```bash
+docker run -d --name peril_rabbitmq -p 5672:5672 -p 15672:15672 -p 61613:61613 rabbitmq-stomp
+```
+
 ### Stop the RabbitMQ server:
 
 ```bash
