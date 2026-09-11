@@ -47,9 +47,3 @@ From the root directory:
 ```bash
 go run ./cmd/client
 ```
-
-### Close the game client:
-
-```bash
-Ctrl + C
-```
