@@ -39,7 +39,16 @@ From the root directory:
 go run ./cmd/server
 ```
 
-### Close the game server:
+## Game client
+
+### Start the game client:
+
+From the root directory:
+```bash
+go run ./cmd/client
+```
+
+### Close the game client:
 
 ```bash
 Ctrl + C
